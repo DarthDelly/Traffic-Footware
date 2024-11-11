@@ -1,0 +1,127 @@
+body {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div.back {   
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    overflow: auto;
+}
+div.trafficLogo {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+div.mycontainer {
+    width: 90%;
+    overflow:auto;
+    outline-width: 20%;
+    margin-right: 20%;
+    margin-left: 15%;
+    margin-top: 5%;
+}   
+div.mycontainer div {
+    width:15%;
+    float:left;
+}
+
+/*---Footer---*/
+.sitefooter {
+    background-color: #444;
+    background-size: cover;
+}
+div.box {
+    margin-top: 25px;
+    overflow: auto;
+    display: block;
+}
+div.box div {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    float:left;
+    padding: 20px;
+}
+div.box1 {
+    margin-top: 3%;
+    margin-left: 50px;
+}
+.box2 {
+    margin-left: 75px;
+    font-size: 18px;
+}
+.box p {
+    font-size: large;
+}
+div.box2 img {
+    width: 1%;
+}
+div.box3 {
+    text-align: center;
+}
+div.box3 img {
+    padding: 5px;
+    transform: scale(1, 1);
+    transition: transform 0.3s;
+}
+div.box3 img:hover {
+    transform: scale(1.2, 1.2);
+}
+div.box4 {
+    text-align: center;
+    padding: 10px;
+    background-color: gray;
+}
+div.box4 img {
+    padding-left: 1%;
+}
+/*-----*/
+
+
+/*-----Dropdowns-----*/
+.dropbtn {
+    margin-top: 7%;
+    background-color: white;
+    border: none;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 15%;
+}  
+div.dropbtn1 {
+    background-color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+div.dropdown1-con {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+div.dropdown1-con a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+div.dropdown1-con a:hover {background-color: #f1f1f1}
+
+div.dropdown1:hover .dropdown1-con {
+  display: block;
+}
+
+div.dropdown1:hover .dropbtn1 {
+  background-color: #3e8e41;
+}
+  
